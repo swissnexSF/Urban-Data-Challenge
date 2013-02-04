@@ -1,0 +1,12 @@
+DAte,routeId,runId,tripStart,direction,stopSequenceNr,stopId,stopNameShort,stopName,vehicleTypeShort,vehicleType,vehicleNumber,passengersBoardingTrip,passengersAlightingTrip,passengersDifferenceTrip,passengersBoardingStop,passengersAlightingStop,passengerLoadStop
+20121001,2,1,21660,2,1,1357,KALK,"ZŸrich, Kalkbreite",COBRA,VBZ Tram Cobra,3026,29,29,0,4,0,4
+20121001,2,1,21660,2,2,1579,LOCH,"ZŸrich, Lochergut",COBRA,VBZ Tram Cobra,3026,29,29,0,4,0,8
+20121001,2,1,21660,2,3,3019,ZYPR,"ZŸrich, Zypressenstrasse",COBRA,VBZ Tram Cobra,3026,29,29,0,2,0,10
+20121001,2,1,21660,2,4,48,ALBP,"ZŸrich, Albisriederplatz",COBRA,VBZ Tram Cobra,3026,29,29,0,14,1,23
+20121001,2,1,21660,2,5,1548,LETG,"ZŸrich, Letzigrund",COBRA,VBZ Tram Cobra,3026,29,29,0,0,3,20
+20121001,2,1,21660,2,6,883,FREI,"ZŸrich, Freihofstrasse",COBRA,VBZ Tram Cobra,3026,29,29,0,1,0,21
+20121001,2,1,21660,2,7,1364,KAPP,"ZŸrich, Kappeli",COBRA,VBZ Tram Cobra,3026,29,29,0,1,9,13
+20121001,2,1,21660,2,8,1026,GRIM,"ZŸrich, Grimselstrasse",COBRA,VBZ Tram Cobra,3026,29,29,0,1,5,9
+20121001,2,1,21660,2,9,1570,LIND,"ZŸrich, Lindenplatz",COBRA,VBZ Tram Cobra,3026,29,29,0,1,3,7
+20121001,2,1,21660,2,10,137,BACH,"ZŸrich, Bachmattstrasse",COBRA,VBZ Tram Cobra,3026,29,29,0,1,1,7
+20121001,2,1,21660,2,11,821,FARB,"ZŸrich, Farbhof",COBRA,VBZ Tram Cobra,3026,29,29,0,0,7,0
