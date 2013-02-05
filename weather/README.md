@@ -31,12 +31,12 @@ Times are in UTC.
 ### Stations
 
 Abbreviation | Name                  | Longitude    | Latitude    | Km-Coordinates | Elevation m a.s.l.
----          | ---                   | ---          | ---         | ---            | ___
-KLO          | Zürich / Kloten       | 8°32'        | 47°29'      | 682706/ 259337 | 426
-REH          | Zürich / Affoltern    | 8°31'        | 47°26'      | 681428/ 253546 | 444
-SMA          | Zürich / Fluntern     | 8°34'        | 47°23'      | 685117/ 248062 | 556
-GVE          | Genève-Cointrin       | 6°08'        | 46°15'      | 498904/ 122625 | 420
-CGI          | Nyon / Changins       | 6°14'        | 46°24'      | 506880/ 139573 | 455
+---          | ---                   | ---          | ---         | ---            | ---:
+KLO          | Zürich / Kloten       | 8°32'        | 47°29'      | 682706/259337 | 426
+REH          | Zürich / Affoltern    | 8°31'        | 47°26'      | 681428/253546 | 444
+SMA          | Zürich / Fluntern     | 8°34'        | 47°23'      | 685117/248062 | 556
+GVE          | Genève-Cointrin       | 6°08'        | 46°15'      | 498904/122625 | 420
+CGI          | Nyon / Changins       | 6°14'        | 46°24'      | 506880/139573 | 455
 
 
 
