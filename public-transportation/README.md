@@ -1,12 +1,12 @@
-The three cities Geneva, San Francisco, and Zurich all have an extensive public transportation network. The cities provided data about
+Public transportation data for the three cities contain information about
 * scheduled arrivals of vehicles
 * real time arrivals of vehicles
 * passenger counts at each stop
 
 Each city has a folder containing the data that was provided by its transit authority. The data structure and the extent of the data collected is different for 
-each of the three cities, but you'll be able to find common data in the collections of each city:
+each of the three cities, but you'll be able to find common data field in each city's collection:
 
-## Common data
+## Common Data Fields
 
 ### Schedule
 | field                 | San Francisco                                             | Zurich                                        | Geneva                                           |
