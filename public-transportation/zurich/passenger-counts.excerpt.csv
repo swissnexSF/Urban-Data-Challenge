@@ -1,4 +1,4 @@
-DAte,routeId,runId,tripStart,direction,stopSequenceNr,stopId,stopNameShort,stopName,vehicleTypeShort,vehicleType,vehicleNumber,passengersBoardingTrip,passengersAlightingTrip,passengersDifferenceTrip,passengersBoardingStop,passengersAlightingStop,passengerLoadStop
+serviceDate,routeId,runId,tripStart,direction,stopSequenceNr,stopId,stopNameShort,stopName,vehicleTypeShort,vehicleType,vehicleNumber,passengersBoardingTrip,passengersAlightingTrip,passengersDifferenceTrip,passengersBoardingStop,passengersAlightingStop,passengerLoadStop
 20121001,2,1,21660,2,1,1357,KALK,"ZŸrich, Kalkbreite",COBRA,VBZ Tram Cobra,3026,29,29,0,4,0,4
 20121001,2,1,21660,2,2,1579,LOCH,"ZŸrich, Lochergut",COBRA,VBZ Tram Cobra,3026,29,29,0,4,0,8
 20121001,2,1,21660,2,3,3019,ZYPR,"ZŸrich, Zypressenstrasse",COBRA,VBZ Tram Cobra,3026,29,29,0,2,0,10
