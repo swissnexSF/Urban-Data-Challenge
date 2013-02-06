@@ -40,10 +40,10 @@ Each line in the file relates to a *stop*, a particular vehicle stopping at a pa
 | vehicleId                 | Id of the vehicle |
 | patternId                 | Id of the pattern. A pattern is a subset of a route |
 | tripDirection             | Direction (A=inbound or S=outbound) of a trip |
-| tripLength                | Length of the whole trip (in seconds). |
+| tripLength                | Length of the whole trip (in meter). |
 | stopSequenceNr            | Sequence number of each stop, starting with 1 at the departure terminal |
 | stopCode                  | Short stop identifier code |
-| stopLength                | Time it takes for a vehicle to make it from the departure terminal to the stop |
+| stopLength                | Distance from the departure terminal to the stop (in meter) |
 | stopTimeSchedule          | Schedule time for the time stop |
 | stopTimeReal              | Real time for the time stop |
 | passengerCountTripUp      | Total number of passengers entering the vehicle for the trip (at all stops and all doors) |
@@ -64,6 +64,6 @@ Each line in the file relates to a *stop*, a particular vehicle stopping at a pa
 | passengerCountDoor6Up     | Number of passengers entering the vehicle by door 6 |
 | passengerCountDoor6Down   | Number of passengers leaving the vehicle by door 6 |
 | isRedirection             | The vehicle is redirected at this stop |
-| isDelocalisation          | The vehicle can't be located at this stop. This is a technical problem on the AVLS (Automatic vehicle Localization System) or the vehicle did not respect the scheduled stops. The data may not be very accurate for this stop |
+| isDelocalisation          | If *isRelocalisation* is false, the vehicle can't be reliably located at this stop. This is a technical problem on the AVLS (Automatic vehicle Localization System) or the vehicle did not respect the scheduled stops. The data may not be very accurate for this stop. |
 | isRelocalisation          | The vehicle is re-located after it couldn't have been located previously.
 ￼
