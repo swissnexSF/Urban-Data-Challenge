@@ -44,9 +44,9 @@ date                        | actual date                                       
 tripId                      |                                                   | number
 tripStart                   | scheduled trip start (seconds since midnight)     | number [seconds]
 routeId                     |                                                   | number
-runId                       |                                                   | numebr
-runNameShort                |                                                   | string
-runName                     |                                                   | string
+routeNumber                 |                                                   | numebr
+routeNameShort              |                                                   | string
+routeName                   |                                                   | string
 runNumber                   |                                                   | number
 direction                   |                                                   | number [1 or 2]
 stopSequenceNr              |                                                   | number
