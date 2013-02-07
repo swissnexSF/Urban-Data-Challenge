@@ -1,0 +1,24 @@
+desc "Generate GeoJSON files"
+task :geojson do
+  rm Dir.glob("geojson/*.*json")
+
+  puts "Converting Routes ..."
+  system "ogr2ogr -f geoJSON 'geojson/routes.json' 'shp/routes.shp' -sql \"SELECT networkCod AS networkCode, routeCode, routeDirec AS routeDirection, routeDesti AS routeDestination FROM 'routes'\""
+
+  puts "Converting Stops ..."
+  system "ogr2ogr -f geoJSON 'geojson/stops.json' 'shp/stops.shp' -sql \"SELECT networkCod AS networkCode, stopCode, stopName, routeCode, routeDirec AS routeDirection, routeDesti AS routeDestination FROM 'stops'\""
+end
+
+desc "Generate TopoJSON files"
+task :topojson do
+  rm Dir.glob("topojson/*.*json")
+
+  src = %w{ routes stops }
+
+  src.each do |file_name|
+    system "topojson 'geojson/#{file_name}.json' -o 'topojson/#{file_name}.json' --properties"
+    # system "topojson 'geojson/#{file_name}.json' -o 'topojson/#{file_name}-simplified.json' -s #{TOPOJSON_PRECISION} --properties"
+  end
+
+  system "topojson #{src.map { |f| "'geojson/#{f}.json'" }.join(" ")} -o 'topojson/#{src.join("-")}.json' --properties"
+end

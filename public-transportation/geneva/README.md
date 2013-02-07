@@ -1,6 +1,13 @@
 Transports publics genevois (tpg, or Geneva Public Transport) is public transport authority for the larger Geneva region. It helps manage mobility throughout the France-Vaud-Geneva metropolitan area, offering a range of top-quality services with due regard for sustainable development principles. All tpg activities aim at excellence in the service of the community, on the basis of a contract for the supply of services renegotiated every four years with the State of Geneva.
 
-The network's routes and stops are both available as KML files, and best viewed in Google Maps. The daily schedule, real time arrival, and passenger counts for Oct 1 to 7 are provided in one big comma separated file.
+The network's routes and stops are available as
+
+* KML (best viewed in Google Maps)
+* ESRI Shapefile
+* GeoJSON
+* [TojoJSON](https://github.com/mbostock/topojson/)
+
+The daily schedule, real time arrival, and passenger counts for Oct 1 to 7 are provided in one big comma separated file.
 
 # Data description
 
