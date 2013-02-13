@@ -5,7 +5,7 @@ The network's routes and stops are available as
 * KML (best viewed in Google Maps)
 * ESRI Shapefile
 * GeoJSON
-* [TojoJSON](https://github.com/mbostock/topojson/)
+* [TopoJSON](https://github.com/mbostock/topojson/)
 
 The daily schedule, real time arrival, and passenger counts for Oct 1 to 7 are provided in one big comma separated file.
 

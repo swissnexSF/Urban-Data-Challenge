@@ -9,6 +9,12 @@ The scheduled data set and actual arrival data set are separated into two files.
 * direction
 * stopSequenceNr
 
+The network's routes and stops are available as
+
+* ESRI Shapefile
+* GeoJSON
+* [TopoJSON](https://github.com/mbostock/topojson/)
+
 
 ## passenger-count.csv
 

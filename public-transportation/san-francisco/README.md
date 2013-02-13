@@ -1,5 +1,12 @@
 Scheduled arrivals, actual arrivals, and passenger counts are provided as separate files. The common identifier that allows for joining the data sets is TRIP_ID.
 
+The network's routes and stops are available as
+
+* ESRI Shapefile
+* GeoJSON
+* [TopoJSON](https://github.com/mbostock/topojson/)
+
+
 # scheduled-arrivals.csv
 
 | Column  | Meaning |
