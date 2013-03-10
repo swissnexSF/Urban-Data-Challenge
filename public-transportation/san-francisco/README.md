@@ -60,3 +60,13 @@ The network's routes and stops are available as
 | TRIPSTOP      | STOP_SEQ plus 1000 concatenated with STOP_NAME |
 | DOORDWELL     | Time the doors are open (TIMEDOORCLOSE - TIMESTOP) | 
 | WAITDWELL     | Time between vehicle rolling and doors close (TIMEPULLOUT - TIMEDOORCLOSE) | 
+
+# Correlating Schedule with Arrivals:
+
+The three files starting with *rotation* contain information about the schedules including the trip IDs used in the passenger and arrival data. Below is an example provided by Chris Pangilinan (SFMTA).
+
+## Example
+
+If you look at Column “M” from the passenger data set, you’ll see a trip ID.  Let’s walk through an example:
+
+Within *passenger-count.csv*, for the 1-California route, you’ll see Trip ID 758 for the inbound direction in Column “M”.  This means that for this specific trip on any weekday, it is scheduled to leave its outermost terminal (Geary/33rd) at 7:58 AM.  Now look at the Rotations Weekday file.  At Cell H-93, you’ll see the 7:58 departure for the inbound 1-California and its subsequent scheduled arrivals at various time points along the route. California/6th Ave at 8:09 AM, California/Presidio at 8:15 AM, etc.  To mine the data within the Rotation CSV’s, you’ll have to go through this exercise for all routes and (I apologize!) deal with the not so friendly formatted CSV file.  These Rotation CSV files were never meant for stuff like this but it is all we have unfortunately.
